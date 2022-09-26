@@ -6,7 +6,7 @@ So far we've taught you a whole lot about building frontends for websites, but w
 
 Before you actually code anything here, go ahead and visit this page in your browser [Rick an Morty API](https://rickandmortyapi.com/api/character). You should get a page that basically just looks like ![this](assets/plain_rnm_json.png)
 
-*pro tip if you want JSON data(which is what you're seeing) to look a bit nicer you can download an extension for your browser that will make it look nice. For me I use `JSON Formatter`.*
+_pro tip if you want JSON data(which is what you're seeing) to look a bit nicer you can download an extension for your browser that will make it look nice. For me I use `JSON Formatter`._
 
 As it turns out, this is the main purpose of most backends these days. They serve up some data that your website can use.
 
@@ -150,3 +150,28 @@ app.get("/characters/:id", (req, res) => {
   res.send("I'm what's going to send over");
 });
 ```
+
+# How to Use Higgz-Style lessons
+
+This is more a note for anybody evaluating the viability of this cirriculum, in the future I would imagine we would have lessons earlier on in the course going over this workflow and it wouldn't neccessarily be in each lesson
+
+### Step 1
+
+Go to this repository on Github, click the "Fork This Repo" button
+
+### Step 2
+
+Clone your forked version of the repository into your computer
+
+### Step 3
+
+Run `npm run install`
+
+### Step 4
+
+in one terminal start up your app with `npm run start`
+in another run `npm run test` and a watcher will come up, letting you know if the assignment is complete
+
+### Step 5
+
+In the future I think we can use something like github actions to allow students to submit their work with an "npm run submit", but that's way ahead of ourselves for now
