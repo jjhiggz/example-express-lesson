@@ -6,7 +6,7 @@ So far we've taught you a whole lot about building frontends for websites, but w
 
 Before you actually code anything here, go ahead and visit this page in your browser [Rick an Morty API](https://rickandmortyapi.com/api/character). You should get a page that basically just looks like ![this](assets/plain_rnm_json.png)
 
-_pro tip_ if you want JSON data(which is what you're seeing) to look a bit nicer you can download an extension for your browser that will make it look nice. For me I use `JSON Formatter`.
+*pro tip if you want JSON data(which is what you're seeing) to look a bit nicer you can download an extension for your browser that will make it look nice. For me I use `JSON Formatter`.*
 
 As it turns out, this is the main purpose of most backends these days. They serve up some data that your website can use.
 
